@@ -1,11 +1,12 @@
 $(document).ready(function(){
     $(".signup-tab").click(function(){
-        $(".login").fadeOut("slow");
-        $(".signup").fadeIn("slow");
+        $(".login").slideUp();
+        $(".signup").slideDown();
 
     }) ;
     $(".login-tab").click(function(){
-        $(".signup").fadeOut("slow");
-        $(".login").fadeIn("slow");
+        $(".signup").slideUp();
+        $(".login").slideDown();
+
     })      
 })
